@@ -27,9 +27,12 @@ export default function Navbar() {
           >
             Tech &amp; Portfólio
           </a>
-          <button className="btn-outline text-sm px-4 py-2">
+          <a
+            href="https://karmometro.kodehouse.com/"
+            className="btn-outline text-sm px-4 py-2 inline-flex items-center"
+          >
             Fazer Login
-          </button>
+          </a>
         </div>
       </div>
     </nav>

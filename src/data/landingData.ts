@@ -13,20 +13,26 @@ export const FEATURES: FeatureItem[] = [
   {
     icon: "🔒",
     title: "Comunidades Fechadas",
-    desc: "Crie grupos isolados no estilo Discord. O que acontece no grupo, fica no grupo.",
+    desc: "Crie grupos com seus amigos. O que acontece no grupo, fica no grupo.",
     accent: "#06b6d4",
   },
   {
     icon: "🎨",
-    title: "Votações Personalizadas",
-    desc: "Escolha os emojis e crie os significados baseados nas piadas internas da sua galera.",
+    title: "Votações Secretas",
+    desc: "Distribua emojis secretamente e descubra quem é a cobra, a planta ou o biscoiteiro do ciclo de amigos.",
     accent: "#8b5cf6",
   },
   {
     icon: "⏱️",
-    title: "Cadência Flexível",
+    title: "Periodicidade Flexível",
     desc: "Configure a frequência de revelação dos resultados: todo dia, toda sexta-feira ou quando você quiser.",
     accent: "#f59e0b",
+  },
+  {
+    icon: "🏆",
+    title: "Ranking & Reputação",
+    desc: "Acumule votos ao longo do tempo, rankeie os mais votados por emoji e conquiste selos de reputação no seu grupo.",
+    accent: "#ec4899",
   },
 ];
 
@@ -43,7 +49,7 @@ export const TECH_CARDS: TechCardItem[] = [
     badge: "Produto",
     title: "UX & Gamificação",
     desc: "Mecânica de votação anônima com revelação semanal. Tensão social vira engajamento orgânico.",
-    tags: ["Anônimo", "Semanal", "Grupos", "Rankings"],
+    tags: ["Anônimo", "Periodico", "Grupos", "Rankings"],
   },
   {
     icon: "📈",
